@@ -1,0 +1,20 @@
+{
+  "name": "fulltimeforce",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./src/core",
+    "dev": "nodemon ./src/core",
+    "test": "jest --watchAll"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "superagent": "^6.1.0"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.7"
+  }
+}
